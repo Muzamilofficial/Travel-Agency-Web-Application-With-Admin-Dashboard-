@@ -1,0 +1,9 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="kahreedoEntities-Web.config Connection String" description="kahreedoEntities Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.Khareedo.csdl|res://*/Models.Khareedo.ssdl|res://*/Models.Khareedo.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DESKTOP-8NOS7H9\SQLEXPRESS;initial catalog=kahreedo;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Muzamil\ Khan\\Desktop\\Travel\ Agency\ Project\\Traveling\ Website\\Client\ Side\\ClientSide\\Kahreedo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='kahreedoEntities']/@connectionString" />
+  </parameter>
+  <parameter name="kahreedoEntities1-Web.config Connection String" description="kahreedoEntities1 Connection String used in web.config by the application to access the database." defaultValue="metadata=res://*/Models.KahreedoDataModel.csdl|res://*/Models.KahreedoDataModel.ssdl|res://*/Models.KahreedoDataModel.msl;provider=System.Data.SqlClient;provider connection string=&quot;data source=DESKTOP-8NOS7H9\SQLEXPRESS;initial catalog=kahreedo;integrated security=True;MultipleActiveResultSets=True;App=EntityFramework&quot;" tags="SqlConnectionString">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\Muzamil\ Khan\\Desktop\\Travel\ Agency\ Project\\Traveling\ Website\\Client\ Side\\ClientSide\\Kahreedo\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='kahreedoEntities1']/@connectionString" />
+  </parameter>
+</parameters>

@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="e6dc55abdbbf476da03b243053fafa4b" Name="Diagram1" ZoomLevel="55">
+        <EntityTypeShape EntityType="kahreedoModel.admin_Employee" Width="1.5" PointX="8.75" PointY="5.25" />
+        <EntityTypeShape EntityType="kahreedoModel.admin_Login" Width="1.5" PointX="11" PointY="1.5" />
+        <EntityTypeShape EntityType="kahreedoModel.Category" Width="1.5" PointX="0.75" PointY="8" />
+        <EntityTypeShape EntityType="kahreedoModel.Customer" Width="1.5" PointX="6" PointY="0.75" />
+        <EntityTypeShape EntityType="kahreedoModel.genMainSlider" Width="1.5" PointX="0.75" PointY="1.375" />
+        <EntityTypeShape EntityType="kahreedoModel.genPromoRight" Width="1.5" PointX="3" PointY="6.25" />
+        <EntityTypeShape EntityType="kahreedoModel.GoodReceiptNote" Width="1.5" PointX="7.5" PointY="21.375" />
+        <EntityTypeShape EntityType="kahreedoModel.Order" Width="1.5" PointX="6" PointY="26.75" />
+        <EntityTypeShape EntityType="kahreedoModel.OrderDetail" Width="1.5" PointX="8.25" PointY="16.75" />
+        <EntityTypeShape EntityType="kahreedoModel.Payment" Width="1.5" PointX="3.75" PointY="29.75" />
+        <EntityTypeShape EntityType="kahreedoModel.PaymentType" Width="1.5" PointX="1.5" PointY="30.25" />
+        <EntityTypeShape EntityType="kahreedoModel.Product" Width="1.5" PointX="3" PointY="9.625" />
+        <EntityTypeShape EntityType="kahreedoModel.PurchaseReturn" Width="1.5" PointX="5.25" PointY="9" />
+        <EntityTypeShape EntityType="kahreedoModel.RecentlyView" Width="1.5" PointX="8.25" PointY="13" />
+        <EntityTypeShape EntityType="kahreedoModel.RequestforQoutation" Width="1.5" PointX="5.25" PointY="16.875" />
+        <EntityTypeShape EntityType="kahreedoModel.Review" Width="1.5" PointX="5.25" PointY="12.625" />
+        <EntityTypeShape EntityType="kahreedoModel.Role" Width="1.5" PointX="8.75" PointY="1.75" />
+        <EntityTypeShape EntityType="kahreedoModel.SalesReturn" Width="1.5" PointX="5.25" PointY="34.625" />
+        <EntityTypeShape EntityType="kahreedoModel.ShippingDetail" Width="1.5" PointX="3.75" PointY="26.125" />
+        <EntityTypeShape EntityType="kahreedoModel.SubCategory" Width="1.5" PointX="0.75" PointY="17.75" />
+        <EntityTypeShape EntityType="kahreedoModel.Supplier" Width="1.5" PointX="0.75" PointY="12.25" />
+        <EntityTypeShape EntityType="kahreedoModel.tbl_SupplierPayment" Width="1.5" PointX="2.75" PointY="1.375" />
+        <EntityTypeShape EntityType="kahreedoModel.tbl_Tax" Width="1.5" PointX="10.75" PointY="5.375" />
+        <EntityTypeShape EntityType="kahreedoModel.tbl_UnitofMeasures" Width="1.5" PointX="10.75" PointY="8.375" />
+        <EntityTypeShape EntityType="kahreedoModel.Wishlist" Width="1.5" PointX="8.25" PointY="10.125" />
+        <AssociationConnector Association="kahreedoModel.FK_admin_Login_admin_Employee" />
+        <AssociationConnector Association="kahreedoModel.FK_admin_Login_Roles" />
+        <AssociationConnector Association="kahreedoModel.FK_genPromoRight_Categories" />
+        <AssociationConnector Association="kahreedoModel.FK_Products_Categories" />
+        <AssociationConnector Association="kahreedoModel.FK_SubCategory_Categories" />
+        <AssociationConnector Association="kahreedoModel.FK_Order_Customers" />
+        <AssociationConnector Association="kahreedoModel.FK_RecentlyViews_Customers" />
+        <AssociationConnector Association="kahreedoModel.FK_Review_Customers" />
+        <AssociationConnector Association="kahreedoModel.FK_Wishlist_Customers" />
+        <AssociationConnector Association="kahreedoModel.FK__GoodRecei__ReqQo__1332DBDC" />
+        <AssociationConnector Association="kahreedoModel.FK_Order_Payment" />
+        <AssociationConnector Association="kahreedoModel.FK_Order_ShippingDetails" />
+        <AssociationConnector Association="kahreedoModel.FK_OrderDetails_Order" />
+        <AssociationConnector Association="kahreedoModel.FK_OrderDetails_Products" />
+        <AssociationConnector Association="kahreedoModel.FK_Payment_PaymentType" />
+        <AssociationConnector Association="kahreedoModel.FK__PurchaseR__Produ__1BC821DD" />
+        <AssociationConnector Association="kahreedoModel.FK__PurchaseR__Produ__1CBC4616" />
+        <AssociationConnector Association="kahreedoModel.FK__Requestfo__Produ__19DFD96B" />
+        <AssociationConnector Association="kahreedoModel.FK__SalesRetu__Produ__25518C17" />
+        <AssociationConnector Association="kahreedoModel.FK_Products_Products" />
+        <AssociationConnector Association="kahreedoModel.FK_Products_Products1" />
+        <AssociationConnector Association="kahreedoModel.FK_Products_SubCategory" />
+        <AssociationConnector Association="kahreedoModel.FK_Products_Suppliers" />
+        <AssociationConnector Association="kahreedoModel.FK_RecentlyViews_Products" />
+        <AssociationConnector Association="kahreedoModel.FK_Review_Products" />
+        <AssociationConnector Association="kahreedoModel.FK_Wishlist_Products" />
+        <AssociationConnector Association="kahreedoModel.FK__PurchaseR__Suppl__1DB06A4F" />
+        <AssociationConnector Association="kahreedoModel.FK__PurchaseR__Suppl__1EA48E88" />
+        <AssociationConnector Association="kahreedoModel.FK__Requestfo__Suppl__1AD3FDA4" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
